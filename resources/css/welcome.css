@@ -1,0 +1,26 @@
+ .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .vertical-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            gap: 10px;
+        }
+
+        .vertical-form input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px;
+            border: none;
+            background: black;
+            color: white;
+            cursor: pointer;
+        }
